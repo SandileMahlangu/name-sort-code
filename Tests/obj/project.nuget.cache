@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "dgSpecHash": "nT9rvNAQQMM=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\SandileMahlangu(Luba\\source\\repos\\name-sort-code\\tests\\name-sorter-test.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\SandileMahlangu(Luba\\.nuget\\packages\\fluentassertions\\8.6.0\\fluentassertions.8.6.0.nupkg.sha512",
+    "C:\\Users\\SandileMahlangu(Luba\\.nuget\\packages\\xunit\\2.9.3\\xunit.2.9.3.nupkg.sha512",
+    "C:\\Users\\SandileMahlangu(Luba\\.nuget\\packages\\xunit.abstractions\\2.0.3\\xunit.abstractions.2.0.3.nupkg.sha512",
+    "C:\\Users\\SandileMahlangu(Luba\\.nuget\\packages\\xunit.analyzers\\1.18.0\\xunit.analyzers.1.18.0.nupkg.sha512",
+    "C:\\Users\\SandileMahlangu(Luba\\.nuget\\packages\\xunit.assert\\2.9.3\\xunit.assert.2.9.3.nupkg.sha512",
+    "C:\\Users\\SandileMahlangu(Luba\\.nuget\\packages\\xunit.core\\2.9.3\\xunit.core.2.9.3.nupkg.sha512",
+    "C:\\Users\\SandileMahlangu(Luba\\.nuget\\packages\\xunit.extensibility.core\\2.9.3\\xunit.extensibility.core.2.9.3.nupkg.sha512",
+    "C:\\Users\\SandileMahlangu(Luba\\.nuget\\packages\\xunit.extensibility.execution\\2.9.3\\xunit.extensibility.execution.2.9.3.nupkg.sha512",
+    "C:\\Users\\SandileMahlangu(Luba\\.nuget\\packages\\xunit.runner.visualstudio\\3.1.4\\xunit.runner.visualstudio.3.1.4.nupkg.sha512"
+  ],
+  "logs": []
+}
