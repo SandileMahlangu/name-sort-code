@@ -102,7 +102,7 @@ namespace name_sorter.Tests
 
     public class NameSorterTests
     {
-        private readonly name_sorter.NameSorter _sorter;
+       private readonly name_sorter.Models.NameSorter _sorter;
 
         public NameSorterTests()
         {
