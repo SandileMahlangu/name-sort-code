@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using Xunit;
 using name_sorter;
-using NameSorter;
+
 
 
 namespace name_sorter.Tests
@@ -50,11 +50,11 @@ namespace name_sorter.Tests
     public class NameParserTests
     {
         //public readonly NameParser _parser;
-        private readonly name_sorter.NameParser _parser;
+        private readonly name_sorter.Models.PersonName _parser;
 
         public NameParserTests()
         {
-            _parser = new NameParser();
+            _parser = new name_sorter.Models.PersonName();
         }
 
         [Theory]
@@ -102,11 +102,13 @@ namespace name_sorter.Tests
 
     public class NameSorterTests
     {
-        private readonly NameSorter _sorter;
+        private readonly name_sorter.NameSorter _sorter;
 
         public NameSorterTests()
         {
-            _sorter = new NameSorter();
+            _sorter = new name_sorter.Models.NameSorter();
+            //new name_sorter.Models.PersonName()
+             
         }
 
         [Fact]
