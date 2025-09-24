@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\SandileMahlangu(Luba\\source\\repos\\name-sort-code\\tests\\name-sorter-test.csproj": {}
+    "C:\\Users\\SandileMahlangu(Luba\\source\\repos\\name-sort-code\\Tests\\name-sorter-test.csproj": {}
   },
   "projects": {
     "C:\\Users\\SandileMahlangu(Luba\\source\\repos\\name-sort-code\\name-sorter\\name-sorter.csproj": {
@@ -73,14 +73,14 @@
         }
       }
     },
-    "C:\\Users\\SandileMahlangu(Luba\\source\\repos\\name-sort-code\\tests\\name-sorter-test.csproj": {
+    "C:\\Users\\SandileMahlangu(Luba\\source\\repos\\name-sort-code\\Tests\\name-sorter-test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\SandileMahlangu(Luba\\source\\repos\\name-sort-code\\tests\\name-sorter-test.csproj",
+        "projectUniqueName": "C:\\Users\\SandileMahlangu(Luba\\source\\repos\\name-sort-code\\Tests\\name-sorter-test.csproj",
         "projectName": "name-sorter-test",
-        "projectPath": "C:\\Users\\SandileMahlangu(Luba\\source\\repos\\name-sort-code\\tests\\name-sorter-test.csproj",
+        "projectPath": "C:\\Users\\SandileMahlangu(Luba\\source\\repos\\name-sort-code\\Tests\\name-sorter-test.csproj",
         "packagesPath": "C:\\Users\\SandileMahlangu(Luba\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\SandileMahlangu(Luba\\source\\repos\\name-sort-code\\tests\\obj\\",
+        "outputPath": "C:\\Users\\SandileMahlangu(Luba\\source\\repos\\name-sort-code\\Tests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -127,6 +127,10 @@
             "FluentAssertions": {
               "target": "Package",
               "version": "[8.6.0, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.11.1, )"
             },
             "xunit": {
               "target": "Package",
