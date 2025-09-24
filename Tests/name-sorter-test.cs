@@ -2,6 +2,8 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using Xunit;
+using name_sorter;
+using NameSorter;
 
 
 namespace name_sorter.Tests
@@ -14,7 +16,6 @@ namespace name_sorter.Tests
           
             var name = new Name(new[] { "John", "Michael" }, "Doe");
 
-            // Assert
             Assert.Equal(new[] { "John", "Michael" }, name.GivenNames);
             Assert.Equal("Doe", name.LastName);
         }
@@ -48,7 +49,8 @@ namespace name_sorter.Tests
 
     public class NameParserTests
     {
-        private readonly NameParser _parser;
+        //public readonly NameParser _parser;
+        private readonly name_sorter.NameParser _parser;
 
         public NameParserTests()
         {
@@ -61,10 +63,10 @@ namespace name_sorter.Tests
         [InlineData("John Michael David Doe", new[] { "John", "Michael", "David" }, "Doe")]
         public void Parse_ValidNames_ReturnsCorrectName(string input, string[] expectedGivenNames, string expectedLastName)
         {
-            // Act
+           
             var result = _parser.Parse(input);
 
-            // Assert
+          
             Assert.Equal(expectedGivenNames, result.GivenNames);
             Assert.Equal(expectedLastName, result.LastName);
         }
