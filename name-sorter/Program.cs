@@ -28,6 +28,9 @@ namespace name_sorter
             //create output file
             var sorted = NameSorter.SortNames(rawNames);
 
+            //var sorter = new NameSorter();
+            //var sorted = sorter.SortNames(rawNames);
+
             const string outputFile = "sorted-names-list.txt";
 
             using (var writer = new StreamWriter(outputFile))
